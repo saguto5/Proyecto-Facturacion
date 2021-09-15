@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Pagina de prueba Santiago</title>
+</head>
+<body>
+    <h1>TITULO INICIAL</h1>
+    <h2>SUBTITULO</h2>
+    <p>Descripción del subtitulo</p>
+    <h3>Subtitulo 2</h3>
+    Prueba<br>
+    <p>Esta es la prueba de uno de los parrafos dentro del HTML, se desea validar qué pasa cuando hay más de un solo parrafo</p>
+    <p>Con este parrafo sabremos qué sucederá.</p>
+    <a href="Prueba HTML2.html"><img src="C:\Users\sagut\Pictures\Prueba.jpg" alt="Prueba"></a><br>
+    <a href="Prueba HTML2.html">Pagina 2</a>
+    <!--Creación de Formulario-->
+    <form action="registrardatos.php" method="POST">
+        Ingrese su nombre:
+        <input type="text" name="nombre" size="20">
+        <br>
+        <!--Contraseña-->
+        Ingrese su contraseña:
+        <input type="password" name="clave" size="20">
+        <br>
+        <!--Textarea-->
+        Comentarios
+        <br>
+        <textarea name="comentarios" rows="5" cols="60"></textarea>
+        <br>
+        <!--Checkbox-->
+        Seleccione qué tipo(s) de vehiculo(s) tiene:
+        <br>
+        <input type="checkbox" name="carro">Carro<br>
+        <input type="checkbox" name="moto">Moto<br>
+        <input type="checkbox" name="camion">Camión<br>
+        <br>
+        <!--radio button-->
+        Seleccione el nivel de estudios que tiene:
+        <br>
+        <input type="radio" name="estudios" value="1">Sin estudios<br>
+        <input type="radio" name="estudios" value="2">Primaria<br>
+        <input type="radio" name="estudios" value="3">Secundaria<br>
+        <input type="radio" name="estudios" value="4">Universitario<br>
+        
+        <!--enviar y borrar-->
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+    </form>
+</body>
+</html>
